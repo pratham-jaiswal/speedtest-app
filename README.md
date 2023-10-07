@@ -1,5 +1,5 @@
 # SpeedTest App
-This is a simple SpeedTest app built using Kivy and Python. It allows users to test their internet connection speed by measuring download and upload speeds, as well as the ping. The app provides a user-friendly interface for initiating speed tests and displaying the results. It is converted into a [standalone executable file](https://github.com/pratham-jaiswal/speedtest-app/releases/tag/Latest) for ease of use and distribution.
+This is a simple speedtest app built using Kivy and Python. It allows users to test their internet connection speed by measuring download and upload speeds, as well as the ping. The app provides a user-friendly interface for initiating speed tests and displaying the results. It is converted into a [standalone executable file](https://github.com/pratham-jaiswal/speedtest-app/releases/tag/Latest) for ease of use and distribution.
 
 ## Use Case
 - Quickly assess your internet performance.
@@ -24,20 +24,17 @@ This is a simple SpeedTest app built using Kivy and Python. It allows users to t
     ```
 - Install the dependencies
     ```sh
-    pip install kivy
+    pip install kivy speedtest-cli
     ```
 - Run the *main.py*
     ```sh
     python main.py
     ```
 - The *SpeedTest App* will open.
-- Go to *Configure* -> *Edit Search Terms*, then *search_terms.json* will open in a notepad, and then add your search terms. For example,
-    ```json
-    {
-        "search_terms": ["Pratham", "name@example.com", "Placement"]
-    }
-    ```
 - Click on *"Start" button* and there you go with the speedtest!
+
+## Feedback and Contributions
+Your feedback is invaluable to me! If you encounter any issues, have suggestions for improvements, or want to contribute to the development of Email Scanner, please don't hesitate to [open an issue](https://github.com/pratham-jaiswal/speedtest-app/issues) on my GitHub repository.
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify the code for your own purposes.
